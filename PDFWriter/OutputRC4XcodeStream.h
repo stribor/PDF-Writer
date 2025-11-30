@@ -21,11 +21,9 @@ limitations under the License.
 #pragma once
 #include "IByteWriterWithPosition.h"
 #include "RC4.h"
+#include "ByteList.h"
 
 #include <string>
-
-typedef std::basic_string<IOBasicTypes::Byte> ByteList;
-
 
 class OutputRC4XcodeStream : public IByteWriterWithPosition
 {

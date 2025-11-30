@@ -21,10 +21,9 @@
 #include "EStatusCode.h"
 #include "IByteReader.h"
 #include "RC4.h"
+#include "ByteList.h"
 
 #include <string>
-
-typedef std::basic_string<IOBasicTypes::Byte> ByteList;
 
 class InputRC4XcodeStream : public IByteReader
 {
