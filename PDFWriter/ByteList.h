@@ -3,6 +3,7 @@
 #include "IOBasicTypes.h"
 
 #include <string>
+#include <cstring>
 
 #include <ios>
 
